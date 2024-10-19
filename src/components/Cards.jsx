@@ -1,16 +1,16 @@
 import React from 'react'
-import Information from './Information'
-import "./Profile.css"
+import frame from "../components/Frame 266.png"
+import "./App.jsx"
 
-const Profile = (props) => {
-    const cards=props.cards;
-    return (
+const Buttons = () => {
+  return (
     <div className='contenedor'>
-        <img className='topic' src="../components/Ellipse 1.png" alt="" />
-        <Information name={profile.name} info={profile.info}/>
-        <Buttons/>
+        <span>Agenda/topic</span>
+        <span>
+            <img/>
+        </span>
     </div>
   )
 }
 
-export default Profile
+export default Cards
